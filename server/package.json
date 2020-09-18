@@ -1,0 +1,44 @@
+{
+  "name": "world-wide-wall",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js",
+    "start2": "ts-node src/index.ts",
+    "dev2": "nodemon --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuistvoPloti/world-wide-wall.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuistvoPloti/world-wide-wall/issues"
+  },
+  "homepage": "https://github.com/BuistvoPloti/world-wide-wall#readme",
+  "devDependencies": {
+    "@types/node": "^14.11.1",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "description": "",
+  "dependencies": {
+    "@mikro-orm/cli": "^4.0.3",
+    "@mikro-orm/core": "^4.0.3",
+    "@mikro-orm/migrations": "^4.0.3",
+    "@mikro-orm/postgresql": "^4.0.3",
+    "pg": "^8.3.3"
+  },
+  "mikro-orm": {
+    "useTsNode": true,
+    "configPaths": [
+      "./src/mikro-orm.config.ts",
+      "./dist/mikro-orm.config.js"
+    ]
+  }
+}
