@@ -2,4 +2,4 @@ dist
 node_modules
 ./src/migrations
 ./src/constants.ts
-../.idea
+.idea
