@@ -1,5 +1,5 @@
 dist
 node_modules
-./src/migrations
-./src/constants.ts
-.idea
+src/migrations
+src/constants.ts
+.idea/
