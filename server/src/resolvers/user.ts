@@ -94,7 +94,7 @@ export class UserResolver {
             }
             console.log("message:", err.message)
         }
-        
+
         req.session.userId = user.id;
 
         return {user};
