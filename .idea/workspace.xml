@@ -15,8 +15,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="ts.external.directory.path" value="D:\development\the-wall\server\node_modules\typescript\lib" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\development\the-wall\web\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,6 +42,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600589486969</updated>
       <workItem from="1600589489894" duration="5892000" />
+      <workItem from="1600689605320" duration="4173000" />
+      <workItem from="1600693960933" duration="6992000" />
     </task>
     <servers />
   </component>
@@ -52,7 +55,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

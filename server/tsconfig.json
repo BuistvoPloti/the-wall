@@ -8,10 +8,12 @@
       "es2017",
       "esnext.asynciterable"
     ],
+    "skipLibCheck": true,
     "sourceMap": true,
     "outDir": "./dist",
     "moduleResolution": "node",
     "removeComments": true,
+    "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
